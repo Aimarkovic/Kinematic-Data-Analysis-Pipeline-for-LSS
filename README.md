@@ -56,6 +56,7 @@ Statistical Group Analysis
 **Repository Structure & File Order**
 
 **Data Loading & Sensor Mapping**
+
 Purpose:\
 Load raw IMU data files and associate each sensor with its corresponding anatomical segment.\
 Key operations:\
@@ -67,6 +68,7 @@ load_data.py\
 sensor_mapping.py
 
 **Signal Preprocessing**
+
 Purpose:\
 Prepare raw IMU signals for sensor fusion.\
 Applied steps:\
@@ -80,7 +82,8 @@ preprocess_accelerometer.py\
 preprocess_magnetometer.py\
 Output: Cleaned IMU signals per sensor
 
-*Sensor Fusion (Orientation Estimation)**
+**Sensor Fusion (Orientation Estimation)**
+
 Purpose:\
 Estimate sensor orientation without relying on measured orientation for correction.\
 Methods explored:\
@@ -98,6 +101,7 @@ Output:\
 final_orientation_estimation_<sensor>.csv
 
 **Biomechanical Modeling (OpenSim)**
+
 Purpose:\
 Convert segment orientations into anatomically meaningful joint angles.\
 Steps:\
@@ -110,6 +114,7 @@ generate_opensim_sto.py\
 opensim_pipeline.py
 
 **Joint Angle Validation**
+
 Purpose:\
 Evaluate the accuracy of IMU-derived kinematics against optical motion capture.\
 Metrics used:\
@@ -123,6 +128,7 @@ validation_metrics.py\
 compare_with_qtm.py
 
 **Gait Feature Extraction**
+
 Purpose:\
 Extract biomechanical features from validated joint-angle time series.\
 Feature domains:\
@@ -136,6 +142,7 @@ Typical files:\
 feature_extraction.py
 
 **Statistical Analysis & Group Differentiation**
+
 Purpose:\
 Identify gait features associated with pathology severity.\
 Analyses performed:\
