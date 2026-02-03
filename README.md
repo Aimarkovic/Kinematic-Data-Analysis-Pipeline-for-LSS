@@ -51,7 +51,7 @@ Joint Angle Validation\
    ↓\
 Gait Feature Extraction\
    ↓\
-Statistical Group Analysis\
+Statistical Group Analysis
 
 **Repository Structure & File Order**
 
