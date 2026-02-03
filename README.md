@@ -5,12 +5,12 @@ The project focuses on objective gait assessment in patients with Lumbar Spinal 
 
 **Project Goals**
 
-The main objectives of this project are:
--Transform raw IMU signals (accelerometer, gyroscope, magnetometer) into reliable segment orientations
--Estimate joint kinematics using biomechanical modeling (OpenSim compatibility)
--Validate IMU-derived joint angles against an optical motion capture gold standard (Qualisys)
--Extract gait features and biomarkers capable of discriminating healthy subjects from LSS patients
--Provide a fully automated, modular, and open pipeline suitable for research and clinical extension
+The main objectives of this project are:\
+-Transform raw IMU signals (accelerometer, gyroscope, magnetometer) into reliable segment orientations\
+-Estimate joint kinematics using biomechanical modeling (OpenSim compatibility)\
+-Validate IMU-derived joint angles against an optical motion capture gold standard (Qualisys)\
+-Extract gait features and biomarkers capable of discriminating healthy subjects from LSS patients\
+-Provide a fully automated, modular, and open pipeline suitable for research and clinical extension\
 
 **Why This Matters**
 
